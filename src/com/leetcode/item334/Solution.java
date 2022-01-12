@@ -63,11 +63,11 @@ public class Solution {
 //            }
 //        }
         int max = Integer.MAX_VALUE, min = Integer.MAX_VALUE;
-        for (int i = 0; i < nums.length; i++) {
-            if (nums[i] <= min) {
-                min = nums[i];
-            } else if (nums[i] <= max) {
-                max = nums[i];
+        for (int num : nums) {
+            if (num <= min) {
+                min = num;
+            } else if (num <= max) {
+                max = num;
             } else {
                 return true;
             }
