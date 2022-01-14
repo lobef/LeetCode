@@ -10,6 +10,7 @@ public class Solution {
         if (needle.length() == 0) {
             return 0;
         }
+
 //        int indexNeed = 0;
 //        for (int i = 0; i < haystack.length(); i++) {
 //            if (indexNeed == needle.length()) {
