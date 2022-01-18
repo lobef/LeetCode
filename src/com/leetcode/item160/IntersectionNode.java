@@ -1,8 +1,9 @@
 package com.leetcode.item160;
 
 
+import com.leetcode.common.ListNode;
+
 import java.util.HashSet;
-import java.util.Objects;
 import java.util.Set;
 
 /**
@@ -69,30 +70,6 @@ public class IntersectionNode {
         }
 
         return null;
-    }
-
-    private class ListNode {
-
-        int val;
-        ListNode next;
-
-        public ListNode(int val) {
-            this.val = val;
-            next = null;
-        }
-
-        @Override
-        public boolean equals(Object o) {
-            if (this == o) return true;
-            if (!(o instanceof ListNode)) return false;
-            ListNode listNode = (ListNode) o;
-            return val == listNode.val;
-        }
-
-        @Override
-        public int hashCode() {
-            return Objects.hash(val, next);
-        }
     }
 
 }
