@@ -1,5 +1,9 @@
 package com.leetcode.item50;
 
+/**
+ * 实现 pow(x, n) ，即计算 x 的 n 次幂函数（即，xn ）。
+ *
+ */
 public class PowSum {
 
 
@@ -20,4 +24,9 @@ public class PowSum {
         PowSum ps = new PowSum();
         System.out.println(ps.myPow(2,10));
     }
+
+
+
+
+
 }
